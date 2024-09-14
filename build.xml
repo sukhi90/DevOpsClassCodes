@@ -140,8 +140,8 @@
     <javac includeantruntime="false" destdir="${maven.build.outputDir}" 
            nowarn="false"            debug="true" 
            optimize="false"         deprecation="true" 
-           target="1.6"                   verbose="false" 
-           fork="false"                  source="1.6">
+           target="1.8"                   verbose="false" 
+           fork="false"                  source="1.8">
       <src>
         <pathelement location="${maven.build.srcDir}"/>
       </src>
@@ -165,7 +165,7 @@
            nowarn="false"           debug="true" 
            optimize="false"        deprecation="true" 
            target="1.8"                  verbose="false" 
-           fork="false"                 source="1.7">
+           fork="false"                 source="1.8">
       <src>
         <pathelement location="${maven.build.testDir}"/>
       </src>
