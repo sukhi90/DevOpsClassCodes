@@ -60,7 +60,7 @@
         </pluginRepository>
         <pluginRepository> 
             <id>maven2</id> 
-            <url>https://repo.maven.apache.org/maven/</url> 
+            <url>https://repo.maven.apache.org/maven2/</url> 
         </pluginRepository> 
     </pluginRepositories>
 
@@ -189,7 +189,11 @@
                 <artifactId>jetty-maven-plugin</artifactId>
                 <version>9.2.3.v20140905</version>
             </plugin>
-			
+                    <plugin>
+                         <groupId>org.apache.maven.plugins</groupId>
+                         <artifactId>maven-war-plugin</artifactId>
+                          <version>3.3.2</version>
+                     </plugin>			
 						<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
